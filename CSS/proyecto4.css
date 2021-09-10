@@ -6,23 +6,19 @@
 
 body {
   background-color: #eee;
-  padding: 0px;
-  margin: 0px;
+  
 }
+
 
 #main-doc {
   background-color: #e1e1e1;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  
 }
 
-#contenedor1 {
-  margin: 0px;
-  padding: 0px;
-}
+
 
 #link {
-  font-size: 50px;
+  font-size: 20px;
   color: #000;
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
@@ -54,7 +50,7 @@ body {
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
-  z-index: 1;
+ 
 }
 #navbar li {
   color: #4d4e53;
@@ -73,4 +69,13 @@ header {
 }
 #list1 {
   top: 100px;
+}
+
+.columna1 {
+  position: absolute;
+}
+#col1{
+  display: inline;
+  text-align: left;
+  position:fixed;
 }
