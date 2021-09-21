@@ -27,7 +27,7 @@ body {
   display: block;
   position:relative;
   left:0;
-  width: 50vw;
+  width: 40%;
 
 }
 
@@ -35,22 +35,27 @@ body {
   display: block;
   position:relative;
   right:0;
-  width:80vw;
+  width:60%;
+  margin-left: -150px;
 }
 
 .titulo-col1{ 
-  
+  display: inline-block;
   position:fixed;
-  top:5px;
+  top:10px;
   left:50px;
   font-size: 1.8em;
   font-weight: thin;
   text-transform:uppercase;
   
 
-
 }
 
+.main-section{
+  margin: 0px 50px;
+
+
+}
 #link {
   font-size: 1.5em;
   color: #000;
@@ -63,7 +68,7 @@ body {
   min-width: 290px;
   top: 0px;
   left: 0px;
-  width:30vw;
+  width:36vw;
   height: 100%;
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
@@ -108,14 +113,13 @@ body {
     
   
 
-  .info article{
-    padding-left: 70px;
-  }
+  
   .info li{
-    padding-left: 70px;
+    margin-left: 20px;
+    padding:10px;
   }
-
- .psueltos{padding-left: 70px;}
+ 
+  .psueltos{padding-left: 0px;}
 
 #list1 {
   top: 100px;
@@ -126,33 +130,37 @@ body {
  
   .navcontainer {
    
-    width: 50vw;
+    width: 50px;
   }
 
   #navbar{
-  position: fixed;
+  position: fixed,;
   min-width: 250px;
   top: 0px;
   left: 0px;
-  width:12vw;
+  
 
   }
 
   .info {
     width: 60vw;
-    
+    position: relative;
   }
 
   .info article{
     padding-left: 0px;
   }
-  .info li{
-    padding-left: 0px;
-  }
+  
+    .info li{
+      margin-left: 0px;
+    
+    padding:7px;
+    }
+  
 
  .psueltos{padding-left: 0px;}
 
-}
+
 
 .titulo-col1{ 
   
@@ -162,6 +170,5 @@ body {
   font-size: 1.3em;
   text-transform:uppercase;
   width:100%;
-  
+  }
 
-}
